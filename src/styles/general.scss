@@ -1,0 +1,29 @@
+/*links*/
+a.wall_reply_greeting {
+    color: $font-color--vk-dark;
+}
+
+#submit_post_box:not(.shown):not(.test_posting_experiment_b):not(.test_posting_experiment_c):not(.own_field) .poster__open-btn-wrapper {
+    border-left: 1px solid $border-color;
+}
+
+.poster__toolbar {
+    background: none;
+    border: none;
+}
+
+.poster__slider-arrow {
+    background-color: $bg-color--light;
+
+    &:hover {
+        background-color: lighten($bg-color--light, 10%);
+    }
+
+    &._right {
+        box-shadow: -5px 0 5px 0px $bg-color--light;
+    }
+}
+
+.poster__settings-btn-wrapper {
+    border: none;
+}
