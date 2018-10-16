@@ -1,0 +1,49 @@
+@mixin general() {
+    background-color: $bg-color;
+    color: $font-color;
+    border: $border;
+}
+
+@mixin product() {
+    background-color: $accent-color--dark;
+    color: $font-color;
+    border: $border;
+}
+
+@mixin input() {
+    background-color: $accent-color--dark;
+    color: $font-color;
+    border: solid 3px lighten($accent-color--dark, 10%);
+}
+
+@mixin button-main() {
+    background-color: $accent-color--dark;
+    color: $font-color;
+    border: $border;
+
+    &:hover {
+        background-color: lighten($accent-color--dark, 10%);
+    }
+}
+
+@mixin button-secondary() {
+    background-color: $bg-color;
+    color: $accent-color--light;
+    border: solid 3px $accent-color--dark;
+
+    &:hover {
+        color: $font-color;
+        border-color: lighten($accent-color--dark, 10%);
+    }
+}
+
+@mixin opacity() {
+    opacity: 0.5;
+
+    transition: opacity ease-in 0.1s;
+
+    &:hover {
+        opacity: 1;
+
+    }
+}

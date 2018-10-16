@@ -1,0 +1,27 @@
+{
+    "name": "vk-dark",
+    "version": "0.0.1",
+    "description": "VK dark theme",
+    "main": "app.js",
+    "scripts": {
+        "start": "echo \"Start compiling by npm run watch or npm run compile\"",
+        "watch": "sass --watch src/style.scss dist/style.css",
+        "compile": "sass src/style.scss dist/style.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "dns",
+        "dark",
+        "dark-theme",
+        "sass",
+        "scss",
+        "css",
+        "stylus"
+    ],
+    "dependencies": {},
+    "author": "Kenya-West",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.14.2"
+    }
+}
