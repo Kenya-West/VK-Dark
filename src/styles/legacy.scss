@@ -11,7 +11,7 @@
 .im-page.im-page_classic.im-page_group .im-group-online,
 .im-page_classic.im-page .im-chat-history-resize,
 body {
-    background: #0f0f0f !important;
+    background: $bg-color;
     color: #c2c2c2
 }
 
@@ -260,7 +260,7 @@ input.text,
 textarea,
 textarea.dark,
 textarea.wke_textarea {
-    background-color: #181818
+    background-color: $bg-color--light
 }
 
 .box_body.box_no_buttons,
@@ -275,7 +275,7 @@ textarea.wke_textarea {
 a.fc_contact_over span.fc_contact_photo.online.mobile:after,
 input.dev_wide_input,
 span.fc_contact_photo.online.mobile:after {
-    background-color: #181818 !important
+    background-color: $bg-color--light
 }
 
 #audio_status_tt .audio_status_sep,
@@ -299,7 +299,7 @@ span.fc_contact_photo.online.mobile:after {
 .ui_scroll_default_theme>.ui_scroll_bar_container>.ui_scroll_bar_outer>.ui_scroll_bar_inner,
 .video_upload_separator_line,
 em.ts_clist_hl {
-    background: #1f1f1f
+    background: $border-color
 }
 
 .ChatSettings__content,
@@ -312,7 +312,7 @@ em.ts_clist_hl {
 .nim-dialog:not(.nim-dialog_deleted).nim-dialog_muted.nim-dialog_selected .nim-dialog--photo .online.mobile:after,
 .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected,
 .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--photo .online.mobile:after {
-    background-color: #121212 !important
+    background-color: #121212
 }
 
 #ads_edit_audience,
@@ -542,7 +542,7 @@ textarea.EditableLabel__textarea {
 .video_upload_tc_wrap .video_tc_upload_progress_wrap,
 .wddi_over .wddi_thumb.online.mobile:after,
 body.dev #page_wrap .tdd_tag {
-    background-color: #141414 !important
+    background-color: #141414
 }
 
 #ads_page_bottom_info,
@@ -770,12 +770,12 @@ div#wpost_post_actions_wrap .post_share:hover {
 .ui_search_new.ui_search_dark .ui_search_input_inner,
 .wk_hider_header,
 body.dev .tickets_new_title {
-    background-color: #161616 !important
+    background-color: #161616
 }
 
 .widget_body,
 a[href="/dev/community_apps"] div svg {
-    background: 0 0 !important
+    background: 0 0
 }
 
 .audio_inline_player .slider .slider_amount,
@@ -800,7 +800,7 @@ a[href="/dev/community_apps"] div svg {
 .chat_tab_imgcont.online.mobile:after,
 .docs_choose_upload_area:hover,
 em.fc_clist_hl {
-    background-color: #262e36 !important
+    background-color: #262e36
 }
 
 .apps_install_settings__item,
@@ -809,7 +809,7 @@ em.fc_clist_hl {
 .gift_tt_show_all:hover,
 .replies_side:hover,
 .wdd_add2 {
-    background-color: #0f0f0f
+    background-color: $bg-color
 }
 
 .im_stickers_store_wrap .flat_button.secondary,
@@ -841,7 +841,7 @@ body.dev input.dev_top_input:focus,
 input.text.ts_input,
 input.text.ts_input:focus {
     background-color: rgba(190, 190, 200, .33);
-    border-color: transparent !important
+    border-color: transparent
 }
 
 .fc_msgs {
@@ -862,7 +862,7 @@ input.text.ts_input:focus {
 .story_view_feedback_button,
 .ui_toggler {
     background-color: rgba(200, 208, 218, .33);
-    color: #c2c2c2 !important
+    color: #c2c2c2
 }
 
 .button_gray button.hover,
@@ -897,7 +897,7 @@ input.text.ts_input:focus {
 .ui_toggler.on,
 .wsubscribe_button .wsubscribe_do {
     background-color: rgba(150, 185, 224, .33);
-    color: #dbe3f5 !important
+    color: #dbe3f5
 }
 
 .button_blue button.hover,
@@ -916,8 +916,8 @@ input.text.ts_input:focus {
 
 .box_controls .flat_button.secondary:hover,
 .flat_button.secondary.button_light:hover {
-    background-color: rgba(200, 208, 218, .41) !important;
-    color: #dbedff !important
+    background-color: rgba(200, 208, 218, .41);
+    color: #dbedff
 }
 
 .ui_toggler.on:after {
@@ -936,11 +936,11 @@ input.text.ts_input:focus {
 
 .im-page_classic .im-page--chat-header,
 .im-page_classic.im-page .im-page--chat-input {
-    border-color: #0f0f0f
+    border-color: $bg-color
 }
 
 .im-page_classic.im-page .im-page--header {
-    border-color: #0f0f0f !important
+    border-color: $bg-color
 }
 
 #ads_edit_audience_title,
@@ -1104,7 +1104,7 @@ body.dev .paginated_table_header .paginated_table_cell *,
 div#wk_history_more_linkÐ±.selector_container td.selector .token_inner,
 div#wpost_post_actions_wrap .my_like .post_like_icon+.post_like_count,
 h2.payments_getvotes_title {
-    color: #56708C !important
+    color: $font-color--vk-dark
 }
 
 #FlyVK_box_content .block,
@@ -1391,7 +1391,7 @@ selector_input,
 textarea,
 textarea.dark,
 ul.listing li span {
-    color: #c2c2c2 !important;
+    color: #c2c2c2;
 }
 
 .bt_tag_label,
@@ -1406,14 +1406,14 @@ ul.listing li span {
 .nim-dialog:not(.nim-dialog_deleted):hover .nim-dialog--preview,
 .nim-dialog:not(.nim-dialog_deleted):hover .nim-dialog--preview>b,
 .nim-dialog:not(.nim-dialog_deleted):hover .nim-dialog--text-preview {
-    color: #b2bbb9
+    color: $font-color
 }
 
 #side_bar ol li .left_row,
 .apps_edit_thumb_header,
 .dev_nav a.nav,
 body.dev .tdd_tag {
-    color: #b2bbb9 !important
+    color: $font-color
 }
 
 .group_u_level,
@@ -1423,7 +1423,7 @@ body.dev .tdd_tag {
 .selector_container td.selector input.focused,
 .selector_container td.selector input.selected,
 a.im-page--dialogs-filter {
-    color: #C1CAC8 !important
+    color: #C1CAC8
 }
 
 #ads_contacts_form .label,
@@ -1820,11 +1820,11 @@ div.apps_edit_header,
 div[contenteditable=true]~.placeholder .ph_content,
 td.ads_settings_notifacations_label,
 td.apps_edit_label {
-    color: #8F8F93 !important
+    color: $font-color--dark
 }
 
 .Tabs__item>* {
-    color: #8F8F93
+    color: $font-color--dark
 }
 
 #admin_form_table_wrapper,
@@ -2246,19 +2246,19 @@ input.dark,
 input.text,
 textarea,
 textarea.dark {
-    border-color: #1f1f1f !important;
+    border-color: $border-color;
     transition: border-color .2s
 }
 
 .Dropdown--b .Dropdown__in:before,
 .feedback_row_clickable:not(.feedback_row_touched):hover,
 .feedback_row_wrap.reply_box_open {
-    border-bottom-color: #1f1f1f
+    border-bottom-color: $border-color
 }
 
 .story_view_feedback_button_actions .ui_actions_menu::after,
 .story_view_feedback_button_actions .ui_actions_menu::before {
-    border-top-color: #1f1f1f
+    border-top-color: $border-color
 }
 
 .eltt.eltt_top.eltt_arrow_size_normal>.eltt_arrow_back .eltt_arrow,
@@ -2269,7 +2269,7 @@ textarea.dark {
 .tt_default.tt_down:after,
 .tt_default_right.tt_down:after,
 .wall_tt.tt_default.tt_down:not(.post_source_tt):not(.fw_reply_tt):after {
-    border-top-color: #181818
+    border-top-color: $bg-color--light
 }
 
 .eltt.eltt_top.eltt_arrow_size_normal>.eltt_arrow_back,
@@ -2305,7 +2305,7 @@ textarea.dark {
 .ui_actions_menu:after,
 .ui_actions_menu_dummy_wrap.feedback_row_menu .ui_actions_menu:after,
 .ui_search_fltr:after {
-    border-bottom-color: #181818
+    border-bottom-color: $bg-color--light
 }
 
 #top_notify_wrap:before,
@@ -2340,7 +2340,7 @@ textarea.dark {
 }
 
 .tt_default.tt_left:after {
-    border-right-color: #181818
+    border-right-color: $bg-color--light
 }
 
 .emoji_tt_wrap.tt_down:after {
@@ -2363,19 +2363,19 @@ textarea.dark {
 }
 
 .fc_tab_pointer.fc_tab_pointer_peer:after {
-    border-left-color: #0f0f0f !important
+    border-left-color: $bg-color
 }
 
 .fc_tab_pointer:after,
 .tickets_side_tt.extra_field:after,
 .tickets_side_tt.text:after,
 .tickets_side_tt.title:after {
-    border-left-color: #181818
+    border-left-color: $bg-color--light
 }
 
 #pv_more_acts_tt.eltt.eltt_top:after,
 #pv_more_acts_tt.eltt.eltt_top:before {
-    border-top-color: #181818
+    border-top-color: $bg-color--light
 }
 
 #mail_box_editable:focus,
@@ -2393,7 +2393,7 @@ input.dark:focus,
 input.search:focus,
 input.text:focus,
 textarea:focus {
-    border-color: #72797F !important;
+    border-color: #72797F;
     transition: border-color .25s
 }
 
@@ -2401,14 +2401,14 @@ textarea:focus {
 .flist_sel_show_all,
 .im-dropbox .im-dropbox--inner,
 .post_upload_dropbox_inner {
-    border-color: #56708C
+    border-color: $font-color--vk-dark
 }
 
 .nim-dialog:not(.nim-dialog_deleted).nim-dialog_hovered .nim-dialog--photo .online.mobile::after,
 .nim-dialog:not(.nim-dialog_deleted).nim-dialog_selected .nim-dialog--photo .online.mobile:after,
 .nim-dialog:not(.nim-dialog_deleted).nim-dialog_unread.nim-dialog_classic .nim-dialog--photo .online.mobile::after,
 .nim-dialog:not(.nim-dialog_deleted):hover .nim-dialog--photo .online.mobile::after {
-    border-color: #1d2126 !important
+    border-color: #1d2126
 }
 
 .ChatSettingsInfo__photoRemove,
@@ -2428,7 +2428,7 @@ textarea:focus {
 .online:after,
 .photos_container .photos_row,
 .post_friend_liked {
-    border-color: #181818 !important
+    border-color: $bg-color--light
 }
 
 .audio_friend.audio_friend_selected,
@@ -2438,7 +2438,7 @@ textarea:focus {
 .ui_rmenu_item_sel:hover,
 .ui_rmenu_sliding .ui_rmenu_slider,
 .wk_text blockquote {
-    border-left-color: #56708C !important
+    border-left-color: $font-color--vk-dark
 }
 
 .landing_ads_tabs .ui_tab.ui_tab_sel,
@@ -2451,7 +2451,7 @@ textarea:focus {
 .ui_tabs .ui_tab_sel:hover,
 .ui_tabs_box .ui_tab_sel,
 .ui_tabs_box .ui_tab_sel:hover {
-    border-bottom-color: #56708C
+    border-bottom-color: $font-color--vk-dark
 }
 
 .fc_tab_head,
@@ -2469,7 +2469,7 @@ textarea:focus {
 }
 
 .chat_tab_wrap:hover .chat_tab_imgcont.online:after {
-    border-color: #262e36 !important
+    border-color: #262e36
 }
 
 .profile_msg_split .profile_btn_cut_left {
@@ -2487,7 +2487,7 @@ textarea:focus {
 .media_selector .ms_item_more,
 .profile_info_header_wrap a:hover,
 .ui_tab_group_items {
-    opacity: 1 !important
+    opacity: 1
 }
 
 .pv_cont .pv_bottom_actions>.pv_actions_more,
@@ -2497,7 +2497,7 @@ textarea:focus {
 }
 
 .profile_info_header_wrap a {
-    opacity: 0 !important
+    opacity: 0
 }
 
 .page_block.search_auto_results {
@@ -2555,14 +2555,14 @@ textarea:focus {
 .im-page_classic .im-page--chat-header-in,
 .im-page_classic.im-page .im-page--dialogs-search,
 .wall_module td.page_media_link_thumb {
-    box-shadow: 0 0 0 1px #181818
+    box-shadow: 0 0 0 1px $bg-color--light
 }
 
 .Button--mobile,
 .ChatSettingsInfo,
 .ChatSettingsMembersWidget,
 .List {
-    box-shadow: 0 1px 0 #1f1f1f, 0 -1px 0 #1f1f1f
+    box-shadow: 0 1px 0 $border-color, 0 -1px 0 $border-color
 }
 
 #dev_left_nav,
@@ -2598,7 +2598,7 @@ textarea:focus {
 }
 
 .emoji_cats_title_helper .emoji_cat_title {
-    box-shadow: 0 7px 7px #181818
+    box-shadow: 0 7px 7px $bg-color--light
 }
 
 #marketplace .market_content .market_row.over {
@@ -2606,7 +2606,7 @@ textarea:focus {
 }
 
 #dev_page_wrap1 {
-    box-shadow: none !important
+    box-shadow: none
 }
 
 .audio_pl_snippet .audio_pl_snippet__cover:not([style*=background-image]),
@@ -2615,7 +2615,7 @@ textarea:focus {
 .no_posts_cover,
 .pv_cont .pv_closed_commments_placeholder,
 .pv_cont .pv_no_commments_placeholder {
-    background-color: #181818;
+    background-color: $bg-color--light;
     background-blend-mode: multiply
 }
 
@@ -2625,12 +2625,12 @@ textarea:focus {
 }
 
 .audio_pl_edit_box .ape_cover_icon {
-    background-color: #181818;
+    background-color: $bg-color--light;
     background-blend-mode: luminosity
 }
 
 .pedit_privacy_control .privacy_edit_wrap a {
-    color: transparent !important
+    color: transparent
 }
 
 .im-page .im-page--search-header {
@@ -2670,11 +2670,11 @@ textarea:focus {
 .wall_module .reply .no_likes .like_icon,
 .wk_like_icon,
 a.groups_messages_block:before {
-    filter: brightness(200%) grayscale(100%) !important
+    filter: brightness(200%) grayscale(100%)
 }
 
 .audio_page_player .audio_page_player_btns .audio_page_player_btn_enabled .icon {
-    filter: brightness(170%) grayscale(100%) !important
+    filter: brightness(170%) grayscale(100%)
 }
 
 .audio_page_player .audio_page_player_btns .icon,
@@ -2687,7 +2687,7 @@ a.groups_messages_block:before {
 .ui_rmenu_item_arrow,
 .wall_module .my_like .post_like_icon,
 .wall_module .my_share .post_share_icon {
-    filter: brightness(150%) grayscale(100%) !important
+    filter: brightness(150%) grayscale(100%)
 }
 
 #side_bar .left_icon,
@@ -2742,7 +2742,7 @@ a.groups_messages_block:before {
 div#wpost_post_actions_wrap .post_comments_icon,
 div#wpost_post_actions_wrap .post_like_icon,
 div#wpost_post_actions_wrap .post_share_icon {
-    filter: brightness(110%) grayscale(100%) !important
+    filter: brightness(110%) grayscale(100%)
 }
 
 #pv_more_acts_tt .pv_more_act_item::before,
@@ -2765,7 +2765,7 @@ div#wpost_post_actions_wrap .post_share_icon {
 .wcomments_logo:before,
 .wk_subscribe_icon,
 a.group_app_button:after {
-    filter: brightness(95%) grayscale(100%) !important
+    filter: brightness(95%) grayscale(100%)
 }
 
 .emoji_smile_icon_vector,
@@ -2788,11 +2788,11 @@ a.group_app_button:after {
 .settings_blb_row:last-child,
 .ui_gridsorter_cont .ui_gridsorter_moveable,
 .wall_module .reply {
-    border-color: transparent !important
+    border-color: transparent
 }
 
 .im-page--back-btn:hover {
-    background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%229%22%20height%3D%2216%22%20viewBox%3D%220%200%209%2016%22%3E%3Cpath%20fill%3D%22%23828A99%22%20d%3D%22M8%2015.9c-.2%200-.4-.1-.6-.3l-7-7c-.3-.3-.3-.9%200-1.2l7-7c.3-.3.9-.3%201.2%200%20.3.3.3.9%200%201.2l-6.4%206.4%206.4%206.4c.3.3.3.9%200%201.2-.2.2-.4.3-.6.3z%22%20opacity%3D%22.7%22%2F%3E%3C%2Fsvg%3E) 13px 16px no-repeat, linear-gradient(90deg, #141414 50%, #181818)
+    background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%229%22%20height%3D%2216%22%20viewBox%3D%220%200%209%2016%22%3E%3Cpath%20fill%3D%22%23828A99%22%20d%3D%22M8%2015.9c-.2%200-.4-.1-.6-.3l-7-7c-.3-.3-.3-.9%200-1.2l7-7c.3-.3.9-.3%201.2%200%20.3.3.3.9%200%201.2l-6.4%206.4%206.4%206.4c.3.3.3.9%200%201.2-.2.2-.4.3-.6.3z%22%20opacity%3D%22.7%22%2F%3E%3C%2Fsvg%3E) 13px 16px no-repeat, linear-gradient(90deg, #141414 50%, $bg-color--light)
 }
 
 .ui_search_new.ui_search_dark .ui_search_button_search {
@@ -2809,7 +2809,7 @@ a.group_app_button:after {
 }
 
 .choose_search_cont input {
-    background: url(/images/search_icon_popup_blue.png) 12px 20px no-repeat #181818
+    background: url(/images/search_icon_popup_blue.png) 12px 20px no-repeat $bg-color--light
 }
 
 .cal_table_head {
@@ -2818,11 +2818,11 @@ a.group_app_button:after {
 }
 
 .blog_about_tabs_line {
-    background: linear-gradient(270deg, #1f1f1f, rgba(0, 0, 0, 0))
+    background: linear-gradient(270deg, $border-color, rgba(0, 0, 0, 0))
 }
 
 .blog_about_tabs_line2 {
-    background: linear-gradient(90deg, #1f1f1f, rgba(0, 0, 0, 0))
+    background: linear-gradient(90deg, $border-color, rgba(0, 0, 0, 0))
 }
 
 .blog_about_tabs {
@@ -2846,7 +2846,7 @@ img.tickets_image__i {
 }
 
 #ads_left {
-    display: none !important
+    display: none
 }
 
 .im_msg_audiomsg+.v2t_text {
@@ -2875,11 +2875,11 @@ img.tickets_image__i {
 }
 
 a[href="/flyvk"]:not(.left_row):not(.ui_crumb) {
-    color: #507ca9 !important
+    color: #507ca9
 }
 
 .im-mess--post .wall_post_cont {
-    background-color: inherit !important
+    background-color: inherit
 }
 
 #box_layer_bg {
@@ -2889,7 +2889,7 @@ a[href="/flyvk"]:not(.left_row):not(.ui_crumb) {
 
 .stories_feed_arrow_left:hover,
 .stories_feed_arrow_right:hover {
-    background: linear-gradient(0deg, #141414, #141414, #141414) !important
+    background: linear-gradient(0deg, #141414, #141414, #141414)
 }
 
 .im-page .im-page--dialogs {
@@ -2897,7 +2897,7 @@ a[href="/flyvk"]:not(.left_row):not(.ui_crumb) {
 }
 
 .flyvk_black .flyvk_thin_stories .stories_feed_item_name {
-    background-color: rgba(255, 255, 255, .15) !important
+    background-color: rgba(255, 255, 255, .15)
 }
 
 .top_audio_play__button,
